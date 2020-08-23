@@ -1,0 +1,18 @@
+﻿@page
+@model RazoragesGeneral.Pages.Employees.EmployeesModel
+@{
+    ViewData["Title"] = "Сотрудники";
+}
+
+<h1>Текуще сотрудники</h1>
+<h3>Количество сотрудников: @Model.Employees.Count() </h3>
+
+<div class="row">
+    @foreach(var item in Model.Employees)
+    {
+
+    }
+
+</div>
+
+
